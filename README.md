@@ -40,12 +40,9 @@ Navigate to `scripts/` and run the scripts inside step by step.
 
 ```
 .
-├── run_all.sh                  # Master pipeline script
 ├── requirements.txt            # Python dependencies
+├── README.md
 ├── data/
-│   ├── cache/                  # Pre-collected cache to speed up Steps 3 and 4
-│   │   ├── directory-structures/
-│   │   └── github-metrics/
 │   ├── package-lists/          # [Output] Step 1: Package list CSVs
 │   ├── cross-ecosystem-filter/ # [Output] Step 2: Cross-ecosystem package JSON
 │   ├── github-metrics/         # [Output] Step 3: GitHub metrics JSON
@@ -58,12 +55,12 @@ Navigate to `scripts/` and run the scripts inside step by step.
 │       ├── consolidated-patterns/
 │       └── pattern-correlation/
 └── scripts/
-    ├── 1_mine_package_lists/   # Step 1: Mine package metadata from 6 ecosystems
-    ├── 2_filter_cross_ecosystem/ # Step 2: Identify cross-ecosystem packages
-    ├── 3_mine_github_metrics/  # Step 3: Collect GitHub health metrics
-    ├── 4_mine_directory_structures/ # Step 4: Mine repository directory trees
-    ├── 5_detect_ecosystems/    # Step 5: Detect ecosystem presence
-    └── 6_analyze_patterns/     # Step 6: Architectural pattern analysis
+    ├── 1_mine_package_lists/         # Step 1: Mine package metadata from 6 ecosystems
+    ├── 2_filter_cross_ecosystem/     # Step 2: Identify cross-ecosystem packages
+    ├── 3_mine_github_metrics/        # Step 3: Collect GitHub health metrics
+    ├── 4_mine_directory_structures/  # Step 4: Mine repository directory trees
+    ├── 5_detect_ecosystems/          # Step 5: Detect ecosystem presence
+    └── 6_analyze_patterns/           # Step 6: Architectural pattern analysis
 ```
 
 ## Identified Architectural Patterns
