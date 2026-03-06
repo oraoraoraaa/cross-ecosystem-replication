@@ -1,0 +1,65 @@
+================================================================================
+GITHUB METRICS MINING SUMMARY
+================================================================================
+
+================================================================================
+MONOREPO PACKAGES (cross-ecosystem packages in single repository)
+--------------------------------------------------------------------------------
+Total Input Repositories: 21,846
+Entries in JSON: 21,846
+Successfully Mined: 20,794 (95.18%)
+Errors: 1,052 (4.82%)
+
+Repository Status:
+  Forked: 541 (2.48%)
+  Archived: 1,745 (7.99%)
+  Forked AND Archived: 38 (0.17%)
+  Excluded (Forked | Archived | Errors): 3,300 (15.11%)
+  Valid (for analysis): 18,546 (84.89%)
+
+Error Breakdown:
+  HTTP_404: 1,052 (4.82%)
+
+================================================================================
+MULTIREPO PACKAGES (language-specific repositories like project-js, project-py)
+--------------------------------------------------------------------------------
+Total Input Repositories: 17,165
+Entries in JSON: 17,165
+Successfully Mined: 15,395 (89.69%)
+Errors: 1,770 (10.31%)
+
+Repository Status:
+  Forked: 192 (1.12%)
+  Archived: 1,260 (7.34%)
+  Forked AND Archived: 33 (0.19%)
+  Excluded (Forked | Archived | Errors): 3,189 (18.58%)
+  Valid (for analysis): 13,976 (81.42%)
+
+Error Breakdown:
+  HTTP_404: 1,770 (10.31%)
+
+================================================================================
+COMBINED (ALL PACKAGES)
+--------------------------------------------------------------------------------
+Total Input Repositories: 39,011
+Entries in JSON: 39,011
+Successfully Mined: 36,189 (92.77%)
+Errors: 2,822 (7.23%)
+
+Repository Status:
+  Forked: 733 (1.88%)
+  Archived: 3,005 (7.70%)
+  Forked AND Archived: 71 (0.18%)
+  Excluded (Forked | Archived | Errors): 6,489 (16.63%)
+  Valid (for analysis): 32,522 (83.37%)
+
+Data Source:
+  From Cache: 36,189 (100.00%)
+  From API: 0 (0.00%)
+
+Error Breakdown:
+  HTTP_404: 2,822 (7.23%)
+
+================================================================================
+Summary generated: 2026-02-08 12:43:06
+================================================================================
