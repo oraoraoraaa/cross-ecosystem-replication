@@ -21,7 +21,3 @@ data/github-metrics/github_metrics.json
 ```sh
 data/directory-structures/directory_structures.json
 ```
-
-## Note
-
-A **cache** is provided in `data/cache/directory-structures`. It contains the directory structures we use at the moment of our study. This is would avoid re-mining previously collected data and speed up the script.

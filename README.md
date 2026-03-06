@@ -66,13 +66,6 @@ Navigate to `scripts/` and run the scripts inside step by step.
     └── 6_analyze_patterns/     # Step 6: Architectural pattern analysis
 ```
 
-## Cache Data
-
-The `data/cache/` directory contains pre-collected data that can significantly speed up Steps 3 and 4 by avoiding redundant GitHub API calls. The scripts automatically check the cache before making API requests.
-
-- `data/cache/github-metrics/github_metrics.json` — Previously mined GitHub metrics
-- `data/cache/directory-structures/directory_structures.json` — Previously mined directory trees
-
 ## Identified Architectural Patterns
 
 | Pattern             | Description                                                                  |

@@ -27,7 +27,3 @@ data/cross-ecosystem-filter/cross_ecosystem_packages.json
 data/github-metrics/github_metrics.json
 data/github-metrics/summary.txt
 ```
-
-## Note
-
-A **cache** is provided in `data/cache/github-metrics/`. It contains the GitHub metrics we use at the moment of our study. This is would avoid re-mining previously collected data and speed up the script.
