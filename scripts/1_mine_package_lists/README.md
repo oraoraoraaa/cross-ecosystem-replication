@@ -37,4 +37,4 @@ data/package-lists/{Crates,Maven,NPM,PHP,PyPI,Ruby}.csv
 
 ## Note
 
-All six miners can be run **in parallel**. This step may take **several hours** depending on network speed, registry scale, and API rate limits.
+All six miners can be run **in parallel**. This step may take **several hours or days** depending on network speed, registry scale, and API rate limits.
