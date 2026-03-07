@@ -2,12 +2,16 @@
 
 ## Overview
 
-The scripts under this folder collect six health metrics for all cross-ecosystem packages from the GitHub API:
+The scripts under this folder would:
+
+1. Collect six health metrics for all cross-ecosystem packages from the GitHub API:
 
 - **Popularity:** stars, forks, contributors
 - **Activity:** commits, pull requests, issues
 
-Also mines language proportions provided by GitHub for each repository and computes unique merged contributors across multi-repo groups.
+and mine language proportions provided by GitHub for each repository.
+
+2. Compute the count of unique merged contributors across multi-repo groups.
 
 ## Run
 
