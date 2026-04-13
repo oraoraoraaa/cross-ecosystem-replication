@@ -72,3 +72,4 @@ Navigate to `scripts/` and run the scripts inside step by step.
 | P3: Designated Dir. | Language-specific named folders (e.g., `python/`, `java/`, `rust/`)          |
 | P4: Templating      | IDL-based code generation (Protocol Buffers, Thrift, FlatBuffers)            |
 | P5: Bind/Wrap       | Language bindings (JSII, WASM, PyO3) or prebuilt native binary distributions |
+
